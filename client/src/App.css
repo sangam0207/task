@@ -1,0 +1,71 @@
+#currencyConverter {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  #conversionForm {
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    width: 400px;
+    height: 25px;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFC0CB; 
+  }
+  
+  #convertButton {
+    font-size: .8em;
+    padding: 10px 10px;
+    margin-top: 10px;
+    background-color: #a647ff; 
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  select {
+    width: 100px;
+    height: 30px;
+    font-size: 0.6em;
+    margin-left: 10px;
+    
+    background-color: #c0e0ff; 
+  }
+  
+  select option {
+    font-size: 1.2em;
+  }
+  #convertedAmount {
+    font-size: 1.2em;
+    color:rgb(255, 0, 195);
+    font-weight: bold;
+  }
+  h2{
+    color:rgb(104, 104, 228)
+  }
+ 
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
+  body {
+    font-size: 1.2em;
+  }
+  .main-box{
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    background-color: rgb(175, 244, 244);
+    width:600px;
+    border:2px solid gray;
+    height:100vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+   
+  }
